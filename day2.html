@@ -1,0 +1,46 @@
+<!-- 1. Different Data Types available in Javascript? -->
+1. Premitive data type :-number, string, boolean, NULL, Infinity and symbol
+2. Non Premitive data type :- object, array.
+
+<!-- 2. In how many ways we can declare a variable -->
+We can declares variable in three ways:
+1.var
+2.Let
+3.const
+
+<!-- 3. What is Hoisting -->
+It is a default behaviour of JavaScript movining all the declearation at the top of scope before
+code execution.
+
+<!-- 4. What is temperal Dead Zone? -->
+The Temporal Dead Zone is a behavior in JavaScript that occurs when declaring a variable with 
+the let and const keywords, but not with var. In ECMAScript 6, accessing a let or const variable 
+before its declaration (within its scope) causes a ReferenceError. 
+The time span when that happens, between
+the creation of a variable’s binding and its declaration, is called the temporal dead zone.
+ex - function somemethod() {
+    console.log(counter1); 
+    console.log(counter2); 
+    var counter1 = 1;
+    let counter2 = 2;
+}
+
+<!-- 5. What is the Difference between == & === Operator ? -->
+Both are comparison operators. The difference between both the
+operators is that,“==” is used to compare values whereas,“ === “ is
+used to compare both value and datatypes.
+var x="2";
+var y=2;
+console.log(x==y);   
+console.log(x===y);  
+
+<!-- 6. What are the Different types of Operators in Javascript -->
+There are six type of Operators:-
+1)Arithmetic Operators
+2)Comparision Operators
+3)Logical Operators
+4)Relational Operators
+5)Conditional Operator
+6)Bitwise Operator
+ 
+
